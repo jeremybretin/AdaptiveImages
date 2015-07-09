@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+
+
+    RewriteEngine On
+
+    # ----------------------------------------------------------------------
+    # | Adaptive image                                                     |
+    # ----------------------------------------------------------------------
+
+    RewriteCond %{REQUEST_URI} !ai-cache
+
+
+    RewriteRule \.(?:jpe?g|JPE?G|gif|png)$ AdaptiveImages.php
+
+</IfModule>
