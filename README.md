@@ -1,19 +1,19 @@
 # AdaptiveImages
-Is it based and inspired by [Matt Wilcox Adaptive-Images](https://github.com/MattWilcox/Adaptive-Images). 
+It is based and inspired by [Matt Wilcox Adaptive-Images](https://github.com/MattWilcox/Adaptive-Images). 
 
 Solution to automatically create adapted picture on desired size or more appropriate for devices client.
 
-## Contexte
-- Send smaller weight picture and on the best ratio to the browser.
-- Use the same picture on different size on various page of the website.
+## Context
+- Send smaller weight picture and width the best ratio to the browser.
+- Use the same picture on different size on various pages of the website.
 
-## How it's work
+## How does it work
 
 ### Picture with specific width and height
 - Crop and resize on specified size
 
 ### Picture with specific width or height
-- resize and keep orginal ratio to fit at the required size
+- resize and keep orginal ratio to fit to the required size
 
 ### Picture with no specific size require
 - resize the picture on maximum size supported by the device
